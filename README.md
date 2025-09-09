@@ -34,3 +34,33 @@ Se evalua el conjuntod de datos con los siguientes Algoritmos:
 * SVM -> Bueno para datos con bordes no lineales
 
 En conclusión, los modelos que han arrojado mayor rendimiento han sido Random Forest y Gradient Boosting, con un valor cercano al 0,99.
+
+
+## Accidentes aéreos desde 1908
+
+Un conjunto de datos de 1988 y consta de cuatro bases de datos: Cleveland, Hungría, Suiza y Long Beach V. Contiene 76 atributos, incluido el atributo predicho, pero todos los experimentos publicados utilizan un subconjunto de 14 de ellos. El campo "objetivo" se refiere a la presencia de cardiopatía en el paciente. Su valor es entero: 0 = sin cardiopatía y 1 = con cardiopatía.
+
+La data está relacionada al fichero Accidentes_Aereos (CLUSTERING).ipynb" y se puede acceder directamente al Google Colab en el siguiente enlace: https://colab.research.google.com/drive/1ykGfa0cxd_3RHXhHQo6RZA2xvoa_wC82#scrollTo=7NG4DVmjiWEK
+
+Mediante un conjunto de datos de Kaggle (fichero 'sample_data/Airplane_Crashes_and_Fatalities_Since_1908.csv').
+
+Se evalua el conjunto de datos con los siguientes Algoritmos:
+
+Para clasificación (Causas del accidente):
+* Random Forest Classifier
+* XGBoost Classifier
+* Logistic Regression (si reduces clases)
+* Naive Bayes (si haces ingeniería de texto sobre el Summary)
+* Para regresión (muertes):
+
+Linear Regression
+* Random Forest Regressor
+* XGBoost Regressor
+* Redes neuronales (MLPRegressor)
+
+Para agrupación (no supervisado):
+* K-Means
+* DBSCAN
+* PCA para reducción de dimensionalidad
+
+Según el objetivo del análsis, utilizamos diferentes técnicas y algoritmos.
