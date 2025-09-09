@@ -63,4 +63,9 @@ Para agrupación (no supervisado):
 * DBSCAN
 * PCA para reducción de dimensionalidad
 
-Según el objetivo del análsis, utilizamos diferentes técnicas y algoritmos.
+Conclusión final evaluando Modelos los 3 tipos de modelos
+Según los datos arrojados, los que mejor rendimiento según el tipo, son:
+* En clasificación: XGBoost con 96%
+* En regresión: MLPRegressor con MAE: 8.61, MSE: 454.95, R²: 0.60
+* En Clustering: KMeans, La distribución es más limpia y estructurada comparada con DBSCAN.
+
