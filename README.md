@@ -29,6 +29,11 @@ Para agrupación (no supervisado):
 * DBSCAN
 * PCA para reducción de dimensionalidad
 
+Metricas recomendadas
+* MAE (Error Absoluto Medio)
+* MSE (Error Cuadrático Medio)
+* R² (Coeficiente de determinación)
+
 Conclusión final evaluando Modelos los 3 tipos de modelos
 Según los datos arrojados, los que mejor rendimiento según el tipo, son:
 * En clasificación: XGBoost con 96%
