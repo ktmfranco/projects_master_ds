@@ -79,10 +79,9 @@ Se evalua el conjunto de datos con los siguientes Algoritmos:
 * XGBoost o LightGBM -> Potentes para datasets más complejos
 * SVM -> Bueno para datos con bordes no lineales
 
-En conclusión, los modelos que han arrojado mayor rendimiento han sido Random Forest y Gradient Boosting, con un valor cercano al 0,99.
-
 ## 
 ![analsis](images/cardiopatia_edaes.png)
 
 ![identificacion de causas](images/cardiopatia_genero.png)
 
+En conclusión, despues de aplicar diferentes métricas y técnicas de optimización de parámetros, los modelos que han arrojado mayor rendimiento han sido Random Forest y Gradient Boosting, con un valor cercano al 0,99.
