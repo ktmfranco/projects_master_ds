@@ -2,6 +2,8 @@
 Se realiza el estudio de 3 conjuntos de datos con la finidad de aplicar algoritmos de Clasificación, Regresión lineal y Clustering. 
 Para todos se desarrolla un Analisis Exploratorio de los Datos,  Obtención de caracteristicas, Entrenamiento, optimización y selección de modelos de ML.
 
+Para correrlos en los notebooks de Google Colab, es necesario porner los ficheros de data csv en el directorio sample_data/ del propio Google Colab.
+
 ## Accidentes aéreos desde 1908
 
 Un conjunto de datos de 1988 y consta de cuatro bases de datos: Cleveland, Hungría, Suiza y Long Beach V. Contiene 76 atributos, incluido el atributo predicho, pero todos los experimentos publicados utilizan un subconjunto de 14 de ellos. El campo "objetivo" se refiere a la presencia de cardiopatía en el paciente. Su valor es entero: 0 = sin cardiopatía y 1 = con cardiopatía.
