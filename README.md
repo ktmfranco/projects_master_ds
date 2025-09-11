@@ -36,8 +36,9 @@ Metricas recomendadas
 * MSE (Error Cuadrático Medio)
 * R² (Coeficiente de determinación)
 
-Conclusión final evaluando Modelos los 3 tipos de modelos
-Según los datos arrojados, los que mejor rendimiento según el tipo, son:
+Conclusión final, evaluando los 3 tipos de modelos.
+
+Según los datos arrojados, los que dan mejor rendimiento según el tipo, son:
 * En clasificación: XGBoost con 96%
 * En regresión: MLPRegressor con MAE: 8.61, MSE: 454.95, R²: 0.60
 * En Clustering: KMeans, La distribución es más limpia y estructurada comparada con DBSCAN.
@@ -50,12 +51,11 @@ Según los datos arrojados, los que mejor rendimiento según el tipo, son:
 
 ## Estudio de canales publicitarios 
 
-Esta relacionado al fichero "Canales_publicitarios (REGRESION_LINEAL).ipynb" y se puede acceder directamente al Google Colab en el siguiente enlace: https://colab.research.google.com/drive/1-aKW4px1g0YOpYZUVYqBM1wtrYsxqrIC
+Esta relacionado al fichero "Canales_publicitarios (REGRESION_LINEAL).ipynb" y se puede acceder directamente al Google Colab por el siguiente enlace: https://colab.research.google.com/drive/1-aKW4px1g0YOpYZUVYqBM1wtrYsxqrIC
 
-Mediante un conjunto de datos de Kaggle (fichero 'sample_data/Advertising_Data.csv'), el cual consta de siete columnas que representan los costos publicitarios en diversas plataformas: televisión, vallas publicitarias, Google Ads, redes sociales, marketing de influencers, marketing de afiliación y por último "Product_Sold", que cuantifica el número correspondiente de unidades vendidas, se investiga el impacto de la publicidad en las ventas de productos.
+Mediante el conjunto de datos de Kaggle (fichero 'sample_data/Advertising_Data.csv'), el cual consta de siete columnas que representan los costos publicitarios en diversas plataformas: televisión, vallas publicitarias, Google Ads, redes sociales, marketing de influencers, marketing de afiliación y por último "Product_Sold", que cuantifica el número correspondiente de unidades vendidas, se investiga el impacto de la publicidad en las ventas de productos.
 
-Se evalua el conjuntod de datos con los siguientes Algoritmos:
-
+Se evalua el conjunto de datos con los siguientes Algoritmos:
 *   Regresión lineal múltiple
 *   Árboles de decisión / Random Forest
 *   XGBoost / Gradient Boosting
@@ -63,15 +63,15 @@ Se evalua el conjuntod de datos con los siguientes Algoritmos:
 
 ## Anális de cardiopatía
 
-Un conjunto de datos de 1988 y consta de cuatro bases de datos: Cleveland, Hungría, Suiza y Long Beach V. Contiene 76 atributos, incluido el atributo predicho, pero todos los experimentos publicados utilizan un subconjunto de 14 de ellos. El campo "objetivo" se refiere a la presencia de cardiopatía en el paciente. Su valor es entero: 0 = sin cardiopatía y 1 = con cardiopatía.
+Un conjunto de datos de 1988 y consta de cuatro bases de datos: Cleveland, Hungría, Suiza y Long Beach V. Contiene 76 atributos, incluido el atributo predicho, pero todos los experimentos publicados utilizan un subconjunto de 14 de ellos. Mediante un conjunto de datos de Kaggle (fichero 'sample_data/heart.csv').
 
-La data está relacionada al fichero "Cardiopatia (CLASIFICACIÓN).ipynb" y se puede acceder directamente al Google Colab en el siguiente enlace: https://colab.research.google.com/drive/1qN-jNW1-qmmFOeAd1EOjY6zT9qkSwmei#scrollTo=7NG4DVmjiWEK
+El campo "objetivo" (tarjet) se refiere a la presencia de cardiopatía en el paciente. Su valor es entero: 0 = sin cardiopatía y 1 = con cardiopatía.
 
-Mediante un conjunto de datos de Kaggle (fichero 'sample_data/heart.csv'), el cual consta de catorce columnas que representan los costos publicitarios en diversas plataformassiento la última el "target" (Tiene o no cardiopatía).
+La data está relacionada al fichero "Cardiopatia (CLASIFICACIÓN).ipynb" y se puede acceder directamente al Google Colab por el siguiente enlace: https://colab.research.google.com/drive/1qN-jNW1-qmmFOeAd1EOjY6zT9qkSwmei#scrollTo=7NG4DVmjiWEK
 
-Mediante la CLASIFICACIÓN, prediciremos esta enfermedad cardiáca según datos supervisados.
+Por medio de la CLASIFICACIÓN, prediciremos esta enfermedad cardiáca según datos supervisados.
 
-Se evalua el conjuntod de datos con los siguientes Algoritmos:
+Se evalua el conjunto de datos con los siguientes Algoritmos:
 
 * LogisticRegression -> Muy rápido y fácil de interpretar
 * RandomForestClassifier -> Preciso, maneja variables no lineales
